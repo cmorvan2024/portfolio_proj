@@ -82,11 +82,12 @@ section {
 
 /* About Section */
 #about {
+    font-family: 'Helvetica Neue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #fff;
     text-align: center;
 }
 
-#about h2 {
+#about h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
@@ -99,21 +100,27 @@ section {
 /* Experience Section */
 #experience {
     background-color: #f4f4f4;
-    text-align: center;
+    text-align: center; /* Centers heading but not list items */
+    padding: 30px 0;
 }
 
-.experience-box {
-    background: white;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+#experience ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0 auto; /* Centers the list */
+    
+    text-align: left; /* Aligns list text properly */
 }
 
-.experience-box h3 {
-    color: #007bff;
+#experience li {
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 900px;
 }
+
 
 /* Projects Section */
 #projects {
