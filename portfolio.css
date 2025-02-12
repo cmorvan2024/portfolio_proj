@@ -171,12 +171,10 @@ section {
 .project ul li {
     font-size: 16px;
     margin-bottom: 8px;
+    text-align: left;
 }
 
-.project ul ul {
-    margin-left: 20px;
-    list-style-type: disc;
-}
+
 
 /* Contact Section */
 #contact {
